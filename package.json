@@ -1,22 +1,31 @@
 {
   "name": "multimodal-construction-intelligence-platform",
-  "version": "1.0.0",
   "private": true,
-  "description": "AI-Powered Multimodal Construction Intelligence Platform built with React, FastAPI, and Google Gemini Multimodal LLM",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "dev:frontend": "npm --prefix frontend run dev",
-    "build": "npm --prefix frontend run build",
-    "test:backend": "pytest -v",
-    "lint": "npm --prefix frontend run lint"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "construction",
-    "real-estate",
-    "multimodal-ai",
-    "fastapi",
-    "react",
-    "gemini"
-  ],
-  "author": "",
-  "license": "MIT"
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "oxlint": "^1.88.0",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  }
 }
