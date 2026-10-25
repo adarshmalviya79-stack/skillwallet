@@ -1,0 +1,22 @@
+{
+  "name": "multimodal-construction-intelligence-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered Multimodal Construction Intelligence Platform built with React, FastAPI, and Google Gemini Multimodal LLM",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test:backend": "pytest -v",
+    "lint": "npm --prefix frontend run lint"
+  },
+  "keywords": [
+    "construction",
+    "real-estate",
+    "multimodal-ai",
+    "fastapi",
+    "react",
+    "gemini"
+  ],
+  "author": "",
+  "license": "MIT"
+}
