@@ -1,0 +1,8 @@
+{
+  "name": "frontend-nested-shim",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"const fs=require('fs'),cp=require('child_process'); cp.execSync('cd .. && npm run build', {stdio:'inherit'}); try{fs.cpSync('../dist', './dist', {recursive:true});}catch(e){}\""
+  }
+}
